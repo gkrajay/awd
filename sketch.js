@@ -23,7 +23,7 @@ function draw() {
   noStroke();
   textAlign(CENTER, CENTER);
   textSize(40);
-  text("What's the Product of 3 & 9?",
+  text("What's 5000 Divided by 0?",
     width/2, height*0.67);
    textSize(28);
    text("Use Arrow keys to move and SPACE bar to stop",
@@ -32,7 +32,7 @@ function draw() {
 
   fill(0); 
   textSize(72);
-  text("28", 100,100);
+  text("5", 100,100);
   
   if(spr.overlap(spr1)){
   	clear();
@@ -41,14 +41,12 @@ function draw() {
   	textSize(80);
   	fill(0);
   	text("CORRECT!", 700,300);
-  	spr.setSpeed(0,0);
-  	noLoop();
-  	createA('https://github.com/gkrajay/awd', 'Click here to Proceed', 800,300);
+  	
   }
   
   fill(0); 
   textSize(72);
-  text("12", 300,250);
+  text("--", 300,250);
   
   if(spr.overlap(spr2)){
   	clear();
@@ -56,12 +54,15 @@ function draw() {
   	textAlign(CENTER);
   	textSize(80);
   	fill(0);
-  	text("WRONG!", 700,300);
+  	text("CORRECT!", 700,300);
+    spr.setSpeed(0,0);
+  	noLoop();
+  	createA('https://github.com/gkrajay/awd', 'Click here to Proceed', 800,300);
   }
   
   fill(0); 
   textSize(72);
-  text("32", 900,350);
+  text("0", 900,350);
   
   if(spr.overlap(spr3)){
   	clear();
