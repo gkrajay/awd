@@ -36,7 +36,7 @@ function draw() {
   
   if(spr.overlap(spr1)){
   	clear();
-  	background(0,255,0);
+  	background(255,0,0);
   	textAlign(CENTER);
   	textSize(80);
   	fill(0);
@@ -50,7 +50,7 @@ function draw() {
   
   if(spr.overlap(spr2)){
   	clear();
-  	background(255,0,0);
+  	background(0,255,0);
   	textAlign(CENTER);
   	textSize(80);
   	fill(0);
@@ -66,7 +66,7 @@ function draw() {
   
   if(spr.overlap(spr3)){
   	clear();
-  	background(0,255,0);
+  	background(255,0,0);
   	textAlign(CENTER);
   	textSize(80);
   	fill(0);
