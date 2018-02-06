@@ -57,7 +57,7 @@ function draw() {
   	text("CORRECT!", 700,300);
     spr.setSpeed(0,0);
   	noLoop();
-  	createA('https://github.com/gkrajay/awd', 'Click here to Proceed', 800,300);
+  	createA('https://gkrajay.github.io/wad', 'Click here to Proceed', 800,300);
   }
   
   fill(0); 
